@@ -1,0 +1,10 @@
+<title>Brain Predict App</title>
+{% if brainName %}
+    <h1>これは {{ brainName }} です</h1>
+    <div>
+        <img src="{{ image }}">
+    </div>
+    <a href="./">トップへ戻る</a>
+{% else %}
+    <a href="./">トップへ戻る</a>
+{% endif %}
